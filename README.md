@@ -1,5 +1,16 @@
 # RParser
 
+##Code Package Dependencies
+This code repo replies heavily on the standford NLP codes, which is interfaced within NLTK package. The way to configure
+standford codes 
+
+1. download it from [link](http://nlp.stanford.edu/software/lex-parser.shtml#Download)
+2. Create a new folder (#stanford_parser_folder# in my environ.yaml file). Place the extracted files into this jar folder: 
+stanford-parser-3.x.x-models.jar and stanford-parser.jar.
+3. Open the stanford-parser-3.x.x-models.jar using command `jar xf jar-file [archived-file(s)]`
+4. Browse inside the jar file; edu/stanford/nlp/models/lexparser. Again, extract the file called 'englishPCFG.ser.gz'.
+5. Copy 'englishPCFG.ser.gz' into a different folder and copy its path to #model_path# in environ.yaml file.
+
 ##Parsing
 
 **Basic heuristic rule for parsing verbs**

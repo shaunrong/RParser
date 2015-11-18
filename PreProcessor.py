@@ -12,8 +12,10 @@ __maintainer__ = 'Shaun Rong'
 __email__ = 'rongzq08@gmail.com'
 
 
-class ChemFormUnitFinder(object):
+class PreProcessor(object):
     def __init__(self):
+        reload(sys)
+        sys.setdefaultencoding('utf8')
         self._chem_table = {}
         self._unit_table = {}
         self._process_text = []
@@ -42,29 +44,38 @@ class ChemFormUnitFinder(object):
         unit_ser = 1
 
         for sen in self._original_text:
-            sen.decode('utf8', 'ignore')
+            sen = unicode(sen, errors='ignore')
             sen = sen.split(' ')
+            new_sen = []
+            split_word = []
             for word in sen:
+                if word[-1] == ',' or word[-1] == '.':
+                    split_word.append(word)
+
+            for word in sen:
+                if word in split_word:
+                    new_sen.append(word[0:-1])
+                    new_sen.append(word[-1])
+                else:
+                    new_sen.append(word)
+            for word in new_sen:
                 token = word_tokenize(word)
                 if len(token) > 1:
                     if self._is_compound(token):
-                        self._chem_table[word] = 'compound_{}'.format(comp_ser)
+                        self._chem_table[word] = 'compound'
                         comp_ser += 1
                 if word in self._units:
-                    self._unit_table[word] = 'unit_{}'.format(unit_ser)
+                    self._unit_table[word] = 'unit'
                     unit_ser += 1
 
-        for sen in self._original_text:
-            sen.decode('utf8', 'ignore')
-            sen = sen.split(' ')
-            for i, word in enumerate(sen):
+            for i, word in enumerate(new_sen):
                 if word in self._chem_table:
-                    sen[i] = self._chem_table[word]
+                    new_sen[i] = self._chem_table[word]
                 if word in self._unit_table:
-                    sen[i] = self._unit_table[word]
-            self._process_text.append(' '.join(sen))
+                    new_sen[i] = self._unit_table[word]
+            self._process_text.append(' '.join(new_sen))
 
-        return self._process_text, self._chem_table
+        return self._process_text, self._chem_table, split_word
 
     def _is_compound(self, token):
         token_with_elements = 0
@@ -84,9 +95,7 @@ class ChemFormUnitFinder(object):
 
 
 if __name__ == '__main__':
-    reload(sys)
-    sys.setdefaultencoding('utf8')
-    cfuf = ChemFormUnitFinder()
+    pp = PreProcessor()
     with open('data/1.raw.txt', 'r') as f:
         text = f.read().splitlines()
     """
@@ -98,6 +107,9 @@ if __name__ == '__main__':
             'The slurry was centrifuged and washed with distilled water and methanol several times to separate the solids.',
             'The solid samples were dried in a vacuum oven at 40 °C overnight.']
     """
-    print text
-    process_text, chemical_table = cff.process(text)
-    print chemical_table
+    print text[0]
+
+    process_text, chem_table, split_word = pp.process([text[0]])
+
+    print split_word
+    print process_text
