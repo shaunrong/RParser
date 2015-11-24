@@ -40,7 +40,7 @@ sen5:
     method2: 'for 4−72 h, after which it was taken out of the oil bath and slowly cooled down to room temperature.'
 sen6:
   action1:
-    v: 'centrifuged and washed'
+    v: 'centrifuged, washed'
     input1: 'the slurry'
     output1: 'implicit object'
     method1: 'with distilled water and methanol several times'

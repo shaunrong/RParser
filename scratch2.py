@@ -24,16 +24,15 @@ os.environ['STANFORD_PARSER'] = stanford_parser_folder
 os.environ['STANFORD_MODELS'] = stanford_parser_folder
 
 cfuf = PreProcessor()
-with open('data/1.raw.txt', 'r') as f:
+with open('data/2.raw.txt', 'r') as f:
     text = f.read().splitlines()
 
-process_text, chemical_table, split_word = cfuf.process(text)
+process_text, sub_table = cfuf.process(text)
 
-print process_text
-print chemical_table
-print split_word
+sen = process_text[5]
 
-sen = process_text[0]
+print sen
+
 
 parser = stanford.StanfordParser(model_path=env['model_path'])
 sentences = parser.raw_parse(sen)

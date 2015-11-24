@@ -16,8 +16,7 @@ class PreProcessor(object):
     def __init__(self):
         reload(sys)
         sys.setdefaultencoding('utf8')
-        self._chem_table = {}
-        self._unit_table = {}
+        self._sub_table = {}
         self._process_text = []
         self._original_text = None
         self._elements = ['H', 'He', 'Li', 'Be', 'B', 'C', 'N', 'O', 'F', 'Ne',
@@ -40,8 +39,6 @@ class PreProcessor(object):
         :param text: a list of sentences, e.g. ["I like O2", "I hate CO2"]
         """
         self._original_text = text
-        comp_ser = 1
-        unit_ser = 1
 
         for sen in self._original_text:
             sen = unicode(sen, errors='ignore')
@@ -58,24 +55,24 @@ class PreProcessor(object):
                     new_sen.append(word[-1])
                 else:
                     new_sen.append(word)
+
             for word in new_sen:
                 token = word_tokenize(word)
                 if len(token) > 1:
                     if self._is_compound(token):
-                        self._chem_table[word] = 'compound'
-                        comp_ser += 1
+                        self._sub_table[word] = 'COMPOUND'
+                if self._is_number_range(word):
+                    self._sub_table[word] = 'NUMBER'
                 if word in self._units:
-                    self._unit_table[word] = 'unit'
-                    unit_ser += 1
+                    self._sub_table[word] = 'UNIT'
 
             for i, word in enumerate(new_sen):
-                if word in self._chem_table:
-                    new_sen[i] = self._chem_table[word]
-                if word in self._unit_table:
-                    new_sen[i] = self._unit_table[word]
+                if word in self._sub_table:
+                    new_sen[i] = self._sub_table[word]
+
             self._process_text.append(' '.join(new_sen))
 
-        return self._process_text, self._chem_table, split_word
+        return self._process_text, self._sub_table
 
     def _is_compound(self, token):
         token_with_elements = 0
@@ -93,6 +90,13 @@ class PreProcessor(object):
         else:
             return False
 
+    def _is_number_range(self, word):
+        w_list = word.split(u'\u2212')
+        if len(w_list) > 1:
+            if w_list[0].isdigit() and w_list[1].isdigit():
+                return True
+        return False
+
 
 if __name__ == '__main__':
     pp = PreProcessor()
@@ -109,7 +113,6 @@ if __name__ == '__main__':
     """
     print text[0]
 
-    process_text, chem_table, split_word = pp.process([text[0]])
+    process_text, chem_table = pp.process([text[0]])
 
-    print split_word
     print process_text
