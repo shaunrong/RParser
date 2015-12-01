@@ -1,0 +1,8 @@
+The conventional solid state reaction method was used for the synthesis of the Gd2O3:Er3+,Yb3+ phosphor. 
+Gadolinium Oxide (Gd2O3), Erbium Oxide (Er2O3) and Ytterbium Oxide (Yb2O3) of high purity (99.99%) chemicals were purchased by Sigma-Aldrich and used as precursor material.
+The stoichiometric ratios of these chemicals were weighed and ground in to a fine powder by using agate mortar and pestle. 
+The ground sample was placed in an alumina crucible and heated at 1000 #C for 1 h and 1400 #C for 4 h in a muffle furnace. 
+The sample is allowed to cool at room temperature in the same furnace. 
+Every heating is followed by intermediate grinding using agate mortar and pestle. 
+The mixtures of reagents were grounded together for 45 min to obtain a homogeneous powder. 
+The Gd2O3:Er3+,Yb3+ phosphor containing variable Yb concentration with fixed Er concentration and vice versa have been synthesized by the above mentioned method.

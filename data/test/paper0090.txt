@@ -1,0 +1,9 @@
+Single crystals of Pb3(Mn1-xFex)7O15 manganites with 0.05, 0.1, 0.15, and 0.2 were grown by a flux method. 
+As a flux, PbO was chosen, known as an effective solvent for many oxide compounds and preventing incorporation of foreign ions into the lattice. 
+The synthesis was started with heating the mixture of appropriate amounts of high purity PbO, Mn2O3, and Fe2O3 in a platinum crucible at 1000 #C for 4 h. 
+Then, the crucible was slowly cooled down to 900 #C with the rate 1/h and, finally, the furnace was cooled to room temperature. 
+Single crystals of a platehexagonal shape with black shiny facets were found at the solidified liquid surface. 
+The plates were up to 40 mm in "diameter". 
+The grown crystals were mechanically extracted from the flux. 
+The magnetic measurements reported in this study were performed on well-polished plate-like samples of the required dimension that were cut from the resulting single-crystal plates. 
+The samples were oriented by the back-Laue method.

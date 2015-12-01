@@ -1,0 +1,7 @@
+According to the chemical formula Ni0.5Zn0.5AlxFe2-xO4 (0.0 # x # 0.25) in steps of 0.05 were prepared through nitrate citrate auto combustion synthesis, using AR grade chemicals: nickel nitrate- Ni(NO3)2*6H2O, zinc nitrate Zn(NO3)2*6H2O, iron nitrate- Fe(NO3)2*9H2O, aluminum nitrate Al(NO3)2*9H2O as starting materials. 
+The initial mixture, as per stoichiometric composition was measured and dissolved in the deionized water. 
+Citric acid was added to the solution in the ratio 1:1. 
+This solution was allowed for gel formation on the magnetic stirrer at 60 #C with constant stirring. 
+During evaporation, the solution became viscous and finally formed a very thick brown gel. 
+With temperature increasing further, this gel was automatically ignited and burnt with glowing flints, until the brown-colored ash was obtained. 
+The as-prepared powders of all the samples were sintered at 1000 #C for 4 h for further characterization.

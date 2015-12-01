@@ -1,0 +1,10 @@
+The raw materials were IOT, CaCO3, SiO2, and Ce(NO3)3*6H2O (analytical grade, 99.0%). 
+IOT came from Hebei province of China, which is the remaining materials derived from iron ore by crushing, sieving, grinding, and flotation. 
+Its chemical compositions were given in the mass ratio as follows: SiO2, 30.09%; Fe2O3, 28.02%; Al2O3, 11.73%; TiO2, 10.97%; CaO, 5.64%; MgO, 4.33%; Na2O, 1.78%; loss on ignition, 5.67%; others, 1.77%.
+The weight percentages of Ce in the experimental group are 3, 5, 7, 9, and 11 wt.%, noted as C3, C5, C7, C9, and C11, respectively; while in the control group was noted as C0.
+Given below are the experimental details. 
+The raw materials were first dissolved in deionized water to obtain a mixed solution with an appropriate proportion (IOT: CaCO3 :SiO2 = 6:1:1, the ratio was obtained according to results of orthogonal experiments).
+The solution was dried at 120 #C for 6h and then pressed into ceramic body at 70MPa. 
+Then the ceramic bodies were put into a furnace for finally sintering. 
+The prepared ceramics were crushed into fine powder with the help of an agate mortar. 
+The sintering process is as follows: Stage I, room temperature to 900 #C with heating rate of 2.4 #C/min; Stage II, 900--1150 #C with heating rate of 2.8 #C/min; Stage III, 1150 #C was kept for 2h; Stage IV, slowly cooled to room temperature.

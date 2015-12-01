@@ -1,0 +1,12 @@
+Single crystals of NaLnGeO4 (Ln Sm, Eu, Gd) were grown out of a molten sodium hydroxide flux. 
+The sodium hydroxide is commercially available and contains approximately 15% water by weight. 
+In a typical procedure, 0.5 mmol of Ln2O3 (prefired at 1000 #C for 24 h), 2 mmol of GeO2 , and 4 g of NaOH were placed together into silver tubes approximately 10 cm long with a diameter of 1.25 cm, which had been flame-sealed at one end. 
+After loading the reagents in to the vessel, the silver tubes were crimped shut and folded over twice before heating. 
+For all compositions, the reaction mixtures were heated to 600 #C at a rate of 10 #C/min, held for 12 h, and then cooled to 400 #C at a rate of 4 #C/h. 
+At this point the furnace was shut off and allowed to cool to room temperature. 
+The hydroxide flux was dissolved in water, aided by the process of sonication, and the crystals were washed with water and acetone and isolated by vacuum filtration. 
+For the Sm member, the product contained only crystals of NaSmGeO4, while the Eu and Gd reactions yielded mixed phase products.
+Polycrystalline samples of NaEuGeO4, NaGdGeO4 and NaTbGeO4 were synthesized via conventional solid state methods. 
+Stoichiometric amounts of Na2CO3, Ln2O3, and GeO2 were thoroughly ground together and loaded into alumina crucibles. 
+The mixtures were heated to 950 #C, held for 2d, and cooled to room temperature, with intermittent grindings. 
+The purity of ground crystals and powder sample was confirmed by powder X-ray diffraction as seen in Fig. S1.

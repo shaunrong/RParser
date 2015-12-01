@@ -1,0 +1,5 @@
+Samples were prepared from indium rods (99.999 mass%, ASARCO, South Plainfield, NJ), palladium sponge (99.9 mass%, OGUSSA, Vienna, Austria), and antimony lumps (99.99 mass%, ASARCO, South Plainfield, NJ). 
+Calculated amounts of the pure elements were weighed to a total mass of about 2 g, sealed in evacuated quartz ampoules, and heated slowly to 1100 #C for 6 h. 
+This procedure was repeated once after powdering the sample. 
+Samples were annealed at 850 #C (14 d) and 500 #C (21 d), respectively, and quenched in cold water. 
+The total mass losses during sample preparation were less than 0.5 mass%. 

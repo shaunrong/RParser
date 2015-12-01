@@ -1,0 +1,9 @@
+Well shaped single crystals of Yb2CuGe6 and Yb3Cu4Ge4 were obtained by combining 3 mmol of ytterbium metal, 2--3 mmol of copper, 6 mmol of germanium and 45 mmol of indium in an alumina crucible under an inert nitrogen atmosphere inside a glove-box.
+The crucible was placed in a 13 mm fused silica tube, which was flame sealed under vacuum of 10 #4 Torr, to prevent oxidation during heating. 
+The reactants were then heated to 1000 #C over 10 h, maintained at that temperature for 5 h to allow proper homogenization, followed by cooling to 850 #C in 2h and held there for 48 h.
+Finally, the system was allowed to slowly cool to 50 #C in 48 h. 
+The reaction product was isolated from the excess indium flux by heating at 350 #C and subsequent centrifugation through a coarse frit. 
+Any remaining flux was removed by immersion and sonication in glacial acetic acid for 48 h. 
+The final crystalline product was rinsed with water and dried with acetone. 
+Cube shaped crystals of Yb2CuGe6 formed from the reaction with small amount of copper (2 mmol) and mixture of Yb2CuGe6 and rod shaped Yb3Cu4Ge4 crystals were obtained from the reaction with high amount of copper (3 mmol). 
+The single crystals of both compounds which grow in metallic silver color were carefully selected for elemental analysis, crystal structure studies and XANES.

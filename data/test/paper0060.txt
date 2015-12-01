@@ -1,0 +1,12 @@
+Dy3+-dopedCaMoO4 phosphors were synthesized via a facile hydrothermal method. 
+Na2MoO4*2H2O (A.R.), Ca(NO3)2*nH2O (A.R.), Sr(NO3)2 (A.R.), Ba(NO3)2 (A.R.), Eu2O3 (99.99%), Tb4O7 (99.99%), Dy2O3 (99.99%) were used as starting materials. 
+In a typical process, stoichiometric weights of Dy2O3 or Eu2O3 ,Tb4O7 were dissolved in dilute nitric acid with stirring, and the superfluous HNO3 was removed by heating. 
+M(NO3)2*nH2O of deionized water were added to the above solution, resulting in the formation of the mixed colorless solution. 
+Meanwhile, 3.0 mmol of Na2MoO4*2H2O was dissolved into 20 mL of deionized water. 
+Then, the above mixed solution was dropped into Na2MoO4 solution slowly under vigorous stirring. 
+White precipitate was immediately observed in the glass beaker. The pH value of the precursor solution was then adjusted to 7 by using diluted NaOH solution under stirring. 
+The vigorous stirring was kept for 30 min. 
+Finally, the precursor solution was transferred into a 50 mL Teflonlined stainless steel autoclave, which was subsequently sealed and maintained at 120 #C for 12 h. 
+After that, the autoclave was allowed to cool down to room temperature naturally. 
+The resulting precursors were separated by centrifugation, washed by deionized water and absolute ethanol for several times, and then dried in vacuum at 70 #C.
+At last, the final samples were obtained.

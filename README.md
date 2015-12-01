@@ -37,3 +37,20 @@ sits, and go up to find
     * if part of the PP in rule 1 already consists of identified NP input argument, then NP2 is not an input/output
       argument
 * To classify input and output argument, if action verb is VBN, the NP before VBN is input, the NP after VBN is output
+
+
+##Using this Repo
+
+To use this repo, run `python setup.py develop` first.
+
+To run Rparser on any raw txt, run the following command in sequence:
+
+* `cd evaluation_scripts`
+* `python RParse_predict.py -i [input_file_name]`
+
+A file named `*.RParser.yaml` will be generated under the same file folder of original input file.
+
+##Evaluation
+
+After running RParser on all raw texts, the evaluation scripts will evaluate the accuracy of each components the
+RParser predicts.
