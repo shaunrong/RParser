@@ -25,17 +25,23 @@ if __name__ == '__main__':
     output_yaml = {}
 
     for i, orig_text in enumerate(text):
+        #Preprocess
         pre_p = PreProcessor()
         process_text, sub_table = pre_p.process([orig_text])
         sen = process_text[0]
+        #RParse
         verb_parent, method_parent = rp.parse(sen)
+        #Postprocess
         post_p = PostProcessor(verb_parent, method_parent, orig_text, sub_table)
         summary = post_p.process()
+
         output_yaml['sen{}'.format(i+1)] = summary
 
-    output_file_name_list = args.i.split('.')
+    file_path = args.i.split('/')
+    output_file_name_list = file_path[-1].split('.')
     output_file_name_list[1] = 'RParser'
     output_file_name_list[2] = 'yaml'
-    output_file_name = '.'.join(output_file_name_list)
-    with open(output_file_name, 'w') as f:
+    file_path[-1] = '.'.join(output_file_name_list)
+    output_file_path = '/'.join(file_path)
+    with open(output_file_path, 'w') as f:
         f.write(yaml.dump(output_yaml, default_flow_style=False))

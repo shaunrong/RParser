@@ -1,0 +1,9 @@
+setup.py
+RParser.egg-info/PKG-INFO
+RParser.egg-info/SOURCES.txt
+RParser.egg-info/dependency_links.txt
+RParser.egg-info/not-zip-safe
+RParser.egg-info/pbr.json
+RParser.egg-info/top_level.txt
+evaluation_scripts/RParse_predict.py
+evaluation_scripts/__init__.py

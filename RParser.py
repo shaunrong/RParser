@@ -15,7 +15,8 @@ __email__ = 'rongzq08@gmail.com'
 
 class RParser(object):
     def __init__(self):
-        with open('environ.yaml', 'r') as f:
+        root_folder = os.path.dirname(os.path.realpath(__file__))
+        with open(os.path.join(root_folder, 'environ.yaml'), 'r') as f:
             env = yaml.load(f)
 
         stanford_parser_folder = env['stanford_parser_folder']
@@ -80,7 +81,8 @@ class RParser(object):
                 for verb in v:
                     for p in dependency_parse:
                         for t in p.triples():
-                            if t[0][0] == unicode(verb[0]) and t[0][1] == unicode('VBN') and t[1] == unicode('xcomp'):
+                            if t[0][0] == unicode(verb[0]) and t[0][1] == unicode('VBN') and t[1] == unicode('xcomp')\
+                                    and t[2][1] == 'VBG':
                                 associate_word_list = []
                                 for k_word in dfs_repr.keys():
                                     if unicode(k_word[0]) == t[2][0]:

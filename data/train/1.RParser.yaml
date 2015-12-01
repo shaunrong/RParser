@@ -1,0 +1,33 @@
+sen1:
+  action1:
+    method1: u'in 50 mL of water'
+    v: u'dissolved'
+sen2:
+  action1:
+    method1: u'in 100 mL of water'
+    v: u'dissolved'
+sen3:
+  action1:
+    method1: u'quickly'
+    method2: u'to solution B'
+    method3: u'under fast magnetic stirring'
+    v: u'added'
+sen4:
+  action1:
+    method1: u'to a glass bottle sealed with a cap'
+    v: u'transferred'
+sen5:
+  action1:
+    method1: u'in a 120 \xb0C oil bath in an Ar flushed glovebox'
+    method2: u'for NUMBER UNIT , after which it was taken out of the oil bath and
+      slowly cooled down to room temperature'
+    v: u'heated'
+sen6:
+  action1:
+    method1: u'with distilled water and methanol several times'
+    v: u'centrifuged, washed'
+sen7:
+  action1:
+    method1: u'in a vacuum oven'
+    method2: u'at 40 \xb0C overnight'
+    v: u'dried'

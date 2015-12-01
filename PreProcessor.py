@@ -31,7 +31,7 @@ class PreProcessor(object):
                           'Pm', 'Sm', 'Eu', 'Gd', 'Tb', 'Dy', 'Ho', 'Er', 'Tm', 'Yb', 'Lu',
                           'Ac', 'Th', 'Pa', 'U', 'Np', 'Pu', 'Am', 'Cm', 'Bk', 'Cf', 'Es',
                           'Fm', 'Md', 'No', 'Lr']
-        self._units = ['mol', 'mL', 'g', '°C', 'h', 'rpm', 'mA/g']
+        self._units = ['mol', 'mL', 'g', '°C', 'h', 'rpm', 'mA/g', '#C']
         self._elements.sort(key=len, reverse=True)
 
     def process(self, text):
