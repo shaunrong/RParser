@@ -1,0 +1,6 @@
+Starting materials for the hydrothermal synthesis are VO2(A) powders and Ba(NO3)2 solutions; VO2(A) powders were prepared hydrothermally from VO(OH)2 powders as described elsewhere (10). 
+A suspension of 400 mg VO2(A) powders in 50 ml 0.05M Ba(NO3)2 solution was sealed in a quartz ampule followed by hydrothermal treatment in an autoclave at 350 °C for 40 h.
+A brown fibrous product was separated by filtration: columnar crystals of BaV2O6 (10) were sometimes included and easily removed by picking out from the product.
+A crystalline phase of the brown fiber could not be identified by powder X-ray diffraction.
+Chemical analysis, thermogravimetry (TG), and energy dispersive X-ray analysis (EDX) gave a nonstoichiometric composition Ba1+xV8O21 with x=0.12(2).
+Single crystals of the brown fiber with a flat rod shape were grown in the product and collected under an optical microscope.

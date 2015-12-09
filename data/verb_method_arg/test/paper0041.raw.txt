@@ -1,0 +1,5 @@
+Fine powders of white Gd2O3 and dark grey B-Rh2O3 of purity greater than 99.9% are dried under flowing Ar gas at 850 K and then mixed in the desired stoichiometric ratio to make GdRhO3. 
+The powders are ground together in an agate mortar. 
+The homogeneous mixture is pelletized at 150 MPa using a steel die, placed in an alumina crucible and heated at 1373 K for a total duration of ~360 ks under dry flowing oxygen gas for synthesizing GdRhO3. 
+The pellets are placed on a sacrcial pellet of the same composition to avoid contamination by the crucible material. 
+At intervals of ~90 ks, the samples are removed from the furnace, cooled to room temperature, ground thoroughly and re-pelletized for further heat treatment.

@@ -1,0 +1,4 @@
+To synthesize Na3V2(PO4)2F3 , stoichiometric amounts of V2O5 and NH4H2PO4 were mixed with 15% carbon black by mass.
+For Na3GaV(PO4)2F3, the starting mixture composed of stoichiometric amounts of V2O5, Ga2O3, and NH4H2PO4 was mixed with 15% carbon black by mass.
+For Na3V2(PO4)2F3, the mixture was pelletized and heated to 750 °C under a flow of argon for 4 h, and for Na3GaV(PO4)2F3 the mixture was pelletized and heated to 850 °C under a flow of argon for 8 h.
+Both resultant mixtures were then crushed, mixed with a stoichiometric mass of NaF, pelletized, and calcined at 750 °C for 2 h under a flow of argon.

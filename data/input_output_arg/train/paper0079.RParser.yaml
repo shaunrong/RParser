@@ -1,0 +1,33 @@
+sen1:
+  action1:
+    method1: u'by solid state reaction method'
+    method2: u'with ZnO -LRB- > 99.7 % -RRB- , MgO -LRB- > 99.0 % -RRB- , TiO2 -LRB-
+      > 99.9 % -RRB- and SnO2'
+    method3: u'as the starting materials'
+    v: u'prepared'
+sen2:
+  action1:
+    method1: u'using planetary milling with zirconia balls in ethanol for 12 h'
+    v: u'weighed, mixed'
+sen3:
+  action1:
+    method1: 'u''at 800 #C for 2 h'''
+    v: u'dried, calcined'
+sen4:
+  action1:
+    method1: u'for 4 h'
+    v: u'milled'
+sen5:
+  action1:
+    v: u'granulated'
+  action2:
+    method1: u'to 12 mm diameter and 1.2 mm thick disks'
+    v: u'pelleted'
+sen6:
+  action1:
+    method1: 'u''by sintering at temperatures from 900 to 1200 #C for 4 h with a heating
+      rate 10 #C/min'''
+    v: u'prepared'
+  action2:
+    method1: u'to room temperature in the furnace'
+    v: u'cooled'

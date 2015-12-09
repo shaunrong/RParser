@@ -1,0 +1,75 @@
+sen1:
+  action1:
+    method1: by combining 3 mmol of ytterbium metal , 2 -- 3 mmol of copper , 6 mmol
+      of germanium and 45 mmol of indium in an alumina crucible under an inert nitrogen
+      atmosphere inside a glove-box
+    v: obtained
+    output1: Well shaped single crystals of Yb2CuGe6 and Yb3Cu4Ge4
+    input1: implicit object
+sen2:
+  action1:
+    method1: 'in a 13 mm fused silica tube , which was flame sealed under vacuum of
+      10 # 4 Torr , to prevent oxidation during heating'
+    v: placed
+sen3:
+  action1:
+    method1: 'to 1000 #C over 10 h'
+    v: heated
+    input1: The reactants
+    output1: implicit object
+  action2:
+    method1: at that temperature for 5 h
+    v: maintained
+    input1: implicit object
+    output1: implicit object
+  action3:
+    method1: 'to 850 #C'
+    method2: in 2h
+    v: cooling
+    input1: implicit object
+    output1: implicit object
+  action4:
+    method1: there
+    method2: for 48 h
+    v: held
+    input1: implicit object
+    output1: implicit object
+sen4:
+  action1:
+    v: cool
+    method1: 'to 50 #C'
+    method2: in 48 h
+    input1: the system
+    output1: implicit object
+sen5:
+  action1:
+    method1: from the excess indium flux
+    method2: 'by heating at 350 #C and subsequent centrifugation through a coarse
+      frit'
+    v: isolated
+    input1: The reaction product
+    output1: implicit object
+sen6:
+  state: extra information
+sen7:
+  action1:
+    method1: with water
+    v: rinsed
+    input1: The final crystalline product
+    output1: implicit object
+  action2:
+    v: dried
+    method1: with acetone
+    input1: implicit object
+    output1: implicit object
+sen8:
+  action1:
+    v: formed
+    method1: from the reaction with small amount of copper (2 mmol)
+    input1: implicit object
+    output1: Cube shaped crystals of Yb2CuGe6
+  action2:
+    method1: from the reaction with high amount of copper (3 mmol)
+    v: obtained
+    input1: implicit object
+    output1: mixture of Yb2CuGe6 and rod shaped Yb3Cu4Ge4 crystals

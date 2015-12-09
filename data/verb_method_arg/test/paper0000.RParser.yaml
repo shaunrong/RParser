@@ -1,0 +1,34 @@
+sen1:
+  action1:
+    input_output_1: u'The precursor powders of LiFePO4'
+    method1: u'by chemical co-precipitation method using stoichiometric LiH2PO4 ,
+      FeSO47H2O and LiOHH2O as starting materials'
+    v: u'prepared'
+sen2:
+  action1:
+    input_output_1: u'The suspension'
+    method1: u'at 0-4 \xb0C for about 30 min'
+    v: u'stirred'
+  action2:
+    method1: u'for about 2 h'
+    v: u'aged'
+sen3:
+  action1:
+    input_output_1: u'The final precursor powder product'
+    input_output_2: u'a vacuum oven'
+    method1: u'then'
+    v: u'filtered'
+  action2:
+    method1: u'with deionized water and ethanol'
+    v: u'washed'
+sen4:
+  action1:
+    input_output_1: u'LiFePO4/C composites'
+    input_output_2: u'the precursor powders'
+    method1: u'well'
+    method2: u'with glucose'
+    v: u'mixed'
+  action2:
+    method1: u'at 975 K and 1025 K'
+    method2: u'at Ar-4%H2 atmosphere'
+    v: u'treated'

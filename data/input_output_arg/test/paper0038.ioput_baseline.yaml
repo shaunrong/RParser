@@ -1,0 +1,43 @@
+sen1:
+  action1:
+    input_output_1: u'COMPOUND'
+    input_output_10: 'u''6 : 1'''
+    input_output_11: u'corundum crucibles enclosed in stainless steel ampoules at
+      1360 K'
+    input_output_12: u'corundum crucibles'
+    input_output_13: u'stainless steel ampoules'
+    input_output_14: u'1360 K'
+    input_output_15: u'COMPOUND'
+    input_output_16: 'u''a minor component from the reaction of the elements La ,
+      C , Ge -LRB- ratio 6 : 6 : 1 -RRB-'''
+    input_output_17: u'a minor component'
+    input_output_18: 'u''the reaction of the elements La , C , Ge -LRB- ratio 6 :
+      6 : 1 -RRB-'''
+    input_output_19: u'the reaction'
+    input_output_2: 'u''a minor component from the reaction of the elements La , C
+      , Ge -LRB- ratio 6 : 6 : 1 -RRB-'''
+    input_output_20: 'u''the elements La , C , Ge -LRB- ratio 6 : 6 : 1 -RRB-'''
+    input_output_21: u'the elements La , C , Ge'
+    input_output_22: 'u''ratio 6 : 6 : 1'''
+    input_output_23: u'ratio 6'
+    input_output_24: 'u''6 : 1'''
+    input_output_25: u'corundum crucibles enclosed in stainless steel ampoules at
+      1360 K'
+    input_output_26: u'corundum crucibles'
+    input_output_27: u'stainless steel ampoules'
+    input_output_28: u'1360 K'
+    input_output_3: u'a minor component'
+    input_output_4: 'u''the reaction of the elements La , C , Ge -LRB- ratio 6 : 6
+      : 1 -RRB-'''
+    input_output_5: u'the reaction'
+    input_output_6: 'u''the elements La , C , Ge -LRB- ratio 6 : 6 : 1 -RRB-'''
+    input_output_7: u'the elements La , C , Ge'
+    input_output_8: 'u''ratio 6 : 6 : 1'''
+    input_output_9: u'ratio 6'
+sen2:
+  action1:
+    input_output_1: u'The excess carbon'
+    input_output_2: u'the reaction'
+    input_output_3: u'the system Ba-C-Ge -LRB- 1 -RRB-'
+    input_output_4: u'the system Ba-C-Ge'
+    input_output_5: u'1'

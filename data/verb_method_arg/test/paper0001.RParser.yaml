@@ -1,0 +1,36 @@
+sen1:
+  action1:
+    input_output_1: u'materials for the hydrothermal synthesis'
+    method1: u'hydrothermally'
+    method2: u'from VO(OH)2 powders as described elsewhere (10)'
+    v: u'prepared'
+sen2:
+  action1:
+    input_output_1: u'A suspension of 400 mg VO2 -LRB- A -RRB- powders in 50'
+    input_output_2: u'0.05 M COMPOUND solution'
+    method1: u'in a quartz ampule followed by hydrothermal treatment in an autoclave
+      at 350 \xb0C for 40 h'
+    v: u'sealed'
+sen3:
+  action1:
+    input_output_1: u'A brown fibrous product'
+    input_output_2: u'BaV2O6'
+    input_output_3: u'the product'
+    method1: u'by filtration'
+    v: u'separated'
+sen4:
+  action1:
+    input_output_1: u'A crystalline phase of the brown fiber'
+    method1: u'by powder X-ray diffraction'
+    v: u'identified'
+sen5:
+  action1:
+    v: u'='
+sen6:
+  action1:
+    input_output_1: u'Single crystals of the brown fiber with a flat rod shape'
+    method1: u'in the product'
+    v: u'grown'
+  action2:
+    method1: u'under an optical microscope'
+    v: u'collected'

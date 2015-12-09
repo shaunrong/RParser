@@ -1,0 +1,46 @@
+sen1:
+  action1:
+    method1: 'by chemical co-precipitation method using stoichiometric LiH2PO4, FeSO47H2O
+      and LiOHH2O as starting materials'
+    v: 'prepared'
+    input1: 'The precursor powders of LiFePO4'
+    output1: 'implicit object'
+sen2:
+  action1:
+    method1: 'at 0-4 \xb0C for about 30 min'
+    v: 'stirred'
+    input1: 'The suspension'
+    output1: 'implicit object'
+  action2:
+    method1: 'for about 2 h'
+    v: 'aged'
+sen3:
+  action1:
+    method1: 'then'
+    v: 'filtered'
+    input1: The final precursor powder product
+    output1: implicit object
+  action2:
+    method1: with deionized water and ethanol
+    v: washed
+    input1: implicit object
+    output1: implicit object
+  action3:
+    v: dried
+    method1: at 100 °C in a vacuum
+    method2: oven for 2 h
+    input1: implicit object
+    output1: implicit object
+sen4:
+  action1:
+    input1: the precursor powders
+    output1: implicit object
+    method1: with glucose
+    method2: well
+    v: mixed
+  action2:
+    method1: at 975 K and 1025 K
+    method2: at Ar-4%H2 atmosphere
+    v: treated
+    input1: implicit object
+    output1: LiFePO4/C composites

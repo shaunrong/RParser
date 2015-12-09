@@ -1,0 +1,91 @@
+sen1:
+  action1:
+    input_output_1: u'Gadolinium Oxide COMPOUND , Erbium Oxide COMPOUND and Ytterbium
+      Oxide COMPOUND of high purity -LRB- 99.99 % -RRB- chemicals'
+    input_output_10: u'Gadolinium Oxide COMPOUND , Erbium Oxide COMPOUND and Ytterbium
+      Oxide COMPOUND of high purity -LRB- 99.99 % -RRB- chemicals'
+    input_output_11: u'Gadolinium Oxide COMPOUND'
+    input_output_12: u'Erbium Oxide COMPOUND'
+    input_output_13: u'Ytterbium Oxide COMPOUND of high purity -LRB- 99.99 % -RRB-
+      chemicals'
+    input_output_14: u'Ytterbium Oxide COMPOUND'
+    input_output_15: u'high purity -LRB- 99.99 % -RRB- chemicals'
+    input_output_16: u'99.99 %'
+    input_output_17: u'Sigma-Aldrich'
+    input_output_18: u'precursor material'
+    input_output_2: u'Gadolinium Oxide COMPOUND'
+    input_output_3: u'Erbium Oxide COMPOUND'
+    input_output_4: u'Ytterbium Oxide COMPOUND of high purity -LRB- 99.99 % -RRB-
+      chemicals'
+    input_output_5: u'Ytterbium Oxide COMPOUND'
+    input_output_6: u'high purity -LRB- 99.99 % -RRB- chemicals'
+    input_output_7: u'99.99 %'
+    input_output_8: u'Sigma-Aldrich'
+    input_output_9: u'precursor material'
+sen2:
+  action1:
+    input_output_1: u'The stoichiometric ratios of these chemicals'
+    input_output_2: u'The stoichiometric ratios'
+    input_output_3: u'these chemicals'
+    input_output_4: u'a fine powder'
+    input_output_5: u'agate mortar and pestle'
+sen3:
+  action1:
+    input_output_1: u'The ground sample'
+    input_output_10: u'4 UNIT'
+    input_output_11: u'a muffle furnace'
+    input_output_12: u'The ground sample'
+    input_output_13: u'an alumina crucible'
+    input_output_14: u'1000 UNIT for 1 UNIT and 1400 UNIT for 4 UNIT in a muffle furnace'
+    input_output_15: u'1000 UNIT for 1 UNIT'
+    input_output_16: u'1000 UNIT'
+    input_output_17: u'1 UNIT'
+    input_output_18: u'1400 UNIT for 4 UNIT in a muffle furnace'
+    input_output_19: u'1400 UNIT'
+    input_output_2: u'an alumina crucible'
+    input_output_20: u'4 UNIT in a muffle furnace'
+    input_output_21: u'4 UNIT'
+    input_output_22: u'a muffle furnace'
+    input_output_3: u'1000 UNIT for 1 UNIT and 1400 UNIT for 4 UNIT in a muffle furnace'
+    input_output_4: u'1000 UNIT for 1 UNIT'
+    input_output_5: u'1000 UNIT'
+    input_output_6: u'1 UNIT'
+    input_output_7: u'1400 UNIT for 4 UNIT in a muffle furnace'
+    input_output_8: u'1400 UNIT'
+    input_output_9: u'4 UNIT in a muffle furnace'
+sen4:
+  action1:
+    input_output_1: u'The sample'
+    input_output_2: u'room temperature in the same furnace'
+    input_output_3: u'room temperature'
+    input_output_4: u'the same furnace'
+sen5:
+  action1:
+    input_output_1: u'Every heating'
+    input_output_2: u'intermediate grinding using agate mortar and pestle'
+    input_output_3: u'intermediate grinding'
+    input_output_4: u'agate mortar and pestle'
+    input_output_5: u'Every heating'
+    input_output_6: u'intermediate grinding using agate mortar and pestle'
+    input_output_7: u'intermediate grinding'
+    input_output_8: u'agate mortar and pestle'
+sen6:
+  action1:
+    input_output_1: u'The mixtures of reagents'
+    input_output_10: u'a homogeneous powder'
+    input_output_2: u'The mixtures'
+    input_output_3: u'reagents'
+    input_output_4: u'45 min'
+    input_output_5: u'a homogeneous powder'
+    input_output_6: u'The mixtures of reagents'
+    input_output_7: u'The mixtures'
+    input_output_8: u'reagents'
+    input_output_9: u'45 min'
+sen7:
+  action1:
+    input_output_1: u'The COMPOUND phosphor containing variable Yb concentration with
+      fixed Er concentration and vice versa'
+    input_output_2: u'The COMPOUND phosphor'
+    input_output_3: u'variable Yb concentration'
+    input_output_4: u'fixed Er concentration and vice versa'
+    input_output_5: u'the above mentioned method'

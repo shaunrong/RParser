@@ -1,0 +1,55 @@
+sen1:
+  action1:
+    method1: by solid state reaction method
+    method2: with ZnO -LRB- > 99.7 % -RRB- , MgO -LRB- > 99.0 % -RRB- , TiO2 -LRB-
+      > 99.9 % -RRB- and SnO2
+    method3: as the starting materials
+    v: prepared
+    input1: implicit object
+    output1: (Zn(1#x),Mgx)2(Ti0.88,Sn0.12)O4 (x = 0.05 , 0.10 , 0.15 and 0.20) ceramics
+sen2:
+  action1:
+    method1: using planetary milling with zirconia balls in ethanol for 12 h
+    method2: According to composition of (1-x)ZnO-xMgO-0.88TiO2-0.12SnO2 (x = 0.05 , 0.10 , 0.15 and 0.20)
+    v: weighed, mixed
+    input1: MgO , ZnO and SnO2 powder
+    output1: implicit object
+sen3:
+  action1:
+    method1: 'at 800 #C for 2 h'
+    v: dried, calcined
+    input1: The mixture
+    output1: implicit object
+sen4:
+  action1:
+    method1: for 4 h
+    v: milled
+    input1: The calcined powder
+    output1: implicit object
+  action2:
+    v: dried
+    input1: implicit object
+    output1: implicit object
+sen5:
+  action1:
+    v: granulated
+    method1: using a 5 wt% poly vinyl alcohol (PVA) solution
+    input1: The resultant powder
+    output1: implicit object
+  action2:
+    method1: to 12 mm diameter and 1.2 mm thick disks
+    v: pelleted
+    input1: implicit object
+    output1: implicit object
+sen6:
+  action1:
+    method1: 'by sintering at temperatures from 900 to 1200 #C for 4 h with a heating
+      rate 10 #C/min'
+    v: prepared
+    input1: The ceramics
+    output1: implicit object
+  action2:
+    method1: to room temperature in the furnace
+    v: cooled
+    input1: implicit object
+    output1: implicit object

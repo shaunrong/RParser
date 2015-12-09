@@ -1,0 +1,5 @@
+Polycrystalline samples with nominal compositions of La0.7Ca0.3MnO(3-sigma)F0.6 were synthesized by the standard solid-state reaction method. 
+Stoichiometric amounts of high purity La2O3 (99.99%), CaCO3 (99.997%), CaF2 (99.985%) and MnO2 (99.997%) powders were mixed and calcined in air at 900 #C for 12 h and cooled to the room temperature with a cooling rate of 5 #C/min. 
+Then, the calcined powders were ground thoroughly and sintered at 1200 #C for 20 h with two intermediate grindings to ensure complete reaction. 
+The sintered mixtures were regrounded and pressed into pellets. 
+Finally, the pellets were annealed at 1350 #C for 20 h.

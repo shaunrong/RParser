@@ -53,7 +53,7 @@ if __name__ == '__main__':
 
     recall = r_verbs / float(total_gold_verbs)
     precision = p_verbs / float(total_predict_verbs)
-    f1 = math.sqrt((recall ** 2 + precision ** 2) / 2.0)
+    f1 = 2 / (1.0 / recall + 1.0 / precision)
 
     print "recall for key action verbs is {}".format(recall)
     print "precision for key action verbs is {}".format(precision)

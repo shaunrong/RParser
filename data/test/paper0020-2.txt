@@ -1,9 +1,0 @@
-Ytterbium, copper and germanium elements were mixed in the ideal 2:1:6 and 3:4:4 atomic ratios for Yb2CuGe6 and Yb3Cu4Ge4 , respectively, and sealed in tantalum ampoules under argon atmosphere in an arc-melting apparatus. 
-The tantalum ampoules were subsequently placed in a water-cooled sample chamber of an induction furnace (Easy Heat induction heating system, Model 7590), first rapidly heated to 170 Amp (ca. 1200--1350 K) and then kept at that temperature for 30 min. 
-Finally, the reaction was rapidly cooled to room temperature by switching off the power supply. 
-Both compounds could easily be removed from the tantalum tubes. 
-No reactions with the crucible material could be detected. 
-Both compounds were found to be stable in moist air for several months. 
-Both are in polycrystalline form and light grey in color. 
-The weight losses of the final material were less than 2%. 
-The samples obtained from the high frequency induction heating method were used for the magnetic and resistivity studies.

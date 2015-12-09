@@ -1,0 +1,37 @@
+sen1:
+  state: extra information
+sen2:
+  action1:
+    input_output_1: u'Na3GaV(PO4)2F3'
+    input_output_2: u'15 % carbon black by mass'
+    method1: u'of stoichiometric amounts of V2O5, Ga2O3, and NH4H2PO4'
+    v: u'composed'
+sen3:
+  action1:
+    input_output_1: u'Na3GaV(PO4)2F3'
+    input_output_2: u'the mixture'
+    input_output_3: u'Na3GaV(PO4)2F3'
+    input_output_4: u'the mixture'
+    method1: u'to 750 \xb0C'
+    method2: u'under a flow of argon'
+    method3: u'for 4 h'
+    v: u'pelletized, heated'
+  action2:
+    method1: u'to 850 \xb0C'
+    method2: u'under a flow of argon'
+    method3: u'for 8 h'
+    v: u'pelletized, heated'
+sen4:
+  action1:
+    input_output_1: u'Both resultant mixtures'
+    method1: u'then'
+    v: u'crushed'
+  action2:
+    method1: u'with a stoichiometric mass of NaF'
+    v: u'mixed'
+  action3:
+    v: u'pelletized'
+  action4:
+    method1: u'at 750 \xb0C for 2 h'
+    method2: u'under a flow of argon'
+    v: u'calcined'

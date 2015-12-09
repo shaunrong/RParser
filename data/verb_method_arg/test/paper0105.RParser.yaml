@@ -1,0 +1,31 @@
+sen1:
+  action1:
+    input_output_1: u'Polycrystalline samples with nominal compositions of La0.7Ca0.3MnO(3-sigma)F0.6'
+    method1: u'by the standard solid-state reaction method'
+    v: u'synthesized'
+sen2:
+  action1:
+    input_output_1: u'Stoichiometric amounts of high purity La2O3 -LRB- 99.99 % -RRB-
+      , CaCO3 -LRB- 99.997 % -RRB- , CaF2 -LRB- 99.985 % -RRB- and MnO2 -LRB- 99.997
+      % -RRB- powders'
+    input_output_2: 'u''a cooling rate of 5 #C/min'''
+    method1: 'u''in air at 900 #C for 12 h'''
+    v: u'mixed, calcined'
+  action2:
+    method1: u'to the room temperature'
+    v: u'cooled'
+sen3:
+  action1:
+    input_output_1: u'the calcined powders'
+    method1: 'u''at 1200 #C for 20 h with two intermediate grindings'''
+    v: u'sintered'
+sen4:
+  action1:
+    input_output_1: u'The sintered mixtures'
+    method1: u'into pellets'
+    v: u'regrounded, pressed'
+sen5:
+  action1:
+    input_output_1: u'the pellets'
+    method1: 'u''at 1350 #C for 20 h'''
+    v: u'annealed'

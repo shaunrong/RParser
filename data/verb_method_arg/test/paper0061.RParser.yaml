@@ -1,0 +1,53 @@
+sen1:
+  action1:
+    input_output_1: u'BaCO3'
+    input_output_2: u'CaCO3'
+    input_output_3: u'ZrO2'
+    input_output_4: u'SnO2'
+    method1: u'as raw materials'
+    v: u'used'
+sen2:
+  action1:
+    input_output_1: u'These powders'
+    input_output_2: u'24'
+    input_output_3: u'the ethanol'
+    input_output_4: u'the medium'
+    method1: u'according to the chemical formula of -LRB- 1-x -RRB- BCTS-xBCTZ -LRB-
+      x = 0 , 0.20 , 0.40 , 0.60 , and 1.00 -RRB-'
+    v: u'weighed'
+sen3:
+  action1:
+    input_output_1: u'The solution'
+    method1: u'in oven'
+    method2: 'u''at 80 #C for 24 h'''
+    v: u'dried'
+  action2:
+    method1: 'u''at 1200 #C for 3 h in air'''
+    v: u'calcined'
+sen4:
+  action1:
+    input_output_1: u'Calcined powders'
+    method1: u'with a polyvinyl alcohol (PVA) binder solution'
+    v: u'mixed'
+  action2:
+    method1: u'into disk samples'
+    method2: u'with a diameter of ~ 1.5 cm and a thickness of ~ 1.0 mm'
+    v: u'compacted'
+sen5:
+  action1:
+    input_output_1: u'All samples'
+    method1: 'u''at 1380 #C for 2 h in air'''
+    method2: 'u''after burning out the PVA binder at 850 #C for 2 h'''
+    v: u'sintered'
+sen6:
+  action1:
+    input_output_1: u'Gold pastes'
+    method1: 'u''at 700 #C for 10 min on both sides of these sintered bulks'''
+    method2: u'as electrodes for electrical measurements'
+    v: u'fired'
+sen7:
+  action1:
+    input_output_1: u'All samples'
+    method1: u'at room temperature in a silicone oil bath'
+    method2: u'under a dc field of 2.0-4 .0 kV/mm'
+    v: u'poled'

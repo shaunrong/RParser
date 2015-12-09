@@ -1,0 +1,37 @@
+sen1:
+  state: extra information
+sen2:
+  action1:
+    method1: 'in air at 900 #C for 12 h'
+    v: mixed, calcined
+    input1: Stoichiometric amounts of high purity La2O3 (99.99%), CaCO3 (99.997%), CaF2 (99.985%) and MnO2 (99.997%) powders
+    output1: implicit objective
+  action2:
+    method1: to the room temperature
+    method2: with a cooling rate of 5 #C/min
+    v: cooled
+    input1: implicit objective
+    output1: implicit objective
+sen3:
+  action1:
+    v: ground
+    method1: thoroughly
+    input1: the calcined powders
+    output1: implicit objective
+  action2:
+    method1: 'at 1200 #C for 20 h with two intermediate grindings'
+    v: sintered
+    input1: implicit objective
+    output1: implicit objective
+sen4:
+  action1:
+    method1: into pellets
+    v: regrounded, pressed
+    input1: The sintered mixtures
+    output1: implicit objective
+sen5:
+  action1:
+    method1: 'at 1350 #C for 20 h'
+    v: annealed
+    input1: the pellets
+    output1: implicit objective

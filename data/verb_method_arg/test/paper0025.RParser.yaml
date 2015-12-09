@@ -1,0 +1,56 @@
+sen1:
+  state: extra information
+sen10:
+  action1:
+    input_output_1: 'u''heating rate of 2.4 #C/min; Stage II'''
+    input_output_2: 'u''rate of 2.8 #C/min; Stage III'''
+    method1: u'for 2h ; Stage IV , slowly cooled to room temperature'
+    v: u'kept'
+sen2:
+  action1:
+    input_output_1: u'IOT'
+    input_output_2: u'the remaining materials'
+    method1: u'from iron ore'
+    method2: u'by crushing , sieving , grinding , and flotation'
+    v: u'derived'
+sen3:
+  action1:
+    method1: 'u''in the mass ratio as follows : SiO2 , 30.09 % ; Fe2O3 , 28.02 % ;
+      Al2O3 , 11.73 % ; TiO2 , 10.97 % ; CaO , 5.64 % ; MgO , 4.33 % ; Na2O , 1.78
+      % ; loss on ignition , 5.67 % ; others , 1.77 %'''
+    v: u'given'
+sen4:
+  action1:
+    input_output_1: u'while'
+    method1: u'as C0'
+    v: u'noted'
+sen5:
+  state: extra information
+sen6:
+  action1:
+    input_output_1: u'The raw materials'
+    input_output_2: u'a mixed solution'
+    input_output_3: u'CaCO3 :SiO2'
+    method1: u'according to results of orthogonal experiments'
+    v: u'obtained'
+sen7:
+  action1:
+    input_output_1: u'The solution'
+    method1: 'u''at 120 #C for 6h'''
+    v: u'dried'
+  action2:
+    method1: u'then'
+    method2: u'into ceramic body at 70MPa'
+    v: u'pressed'
+sen8:
+  action1:
+    input_output_1: u'the ceramic bodies'
+    method1: u'into a furnace'
+    method2: u'for finally sintering'
+    v: u'put'
+sen9:
+  action1:
+    input_output_1: u'The prepared ceramics'
+    method1: u'into fine powder'
+    method2: u'with the help of an agate mortar'
+    v: u'crushed'

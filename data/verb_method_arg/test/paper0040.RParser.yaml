@@ -1,0 +1,41 @@
+sen1:
+  action1:
+    input_output_1: u'MgMn1 .5 Co0 .5 O4 , MgMnCoO4 and MgCo2O4'
+    method1: u'through a simple hydrothermal method followed by calcination at certain
+      temperature'
+    v: u'synthesized'
+sen2:
+  action1:
+    input_output_1: u'a total of 6 mmol cobalt -LRB- II -RRB- chloride hexahydrate
+      COMPOUND'
+    method1: u'into 30 mL de-ionized water under vigorous stirring'
+    v: u'dissolved'
+sen3:
+  action1:
+    input_output_1: u'transparent solution'
+    input_output_2: u'10 mL 4 M sodium hydroxide'
+    method1: u'into the mixed solution'
+    v: u'added'
+sen4:
+  action1:
+    input_output_1: u'the suspensions'
+    method1: u'into autoclaves'
+    v: u'transferred'
+  action2:
+    method1: 'u''at 180 #C for 12 h'''
+    v: u'heated'
+sen5:
+  action1:
+    input_output_1: u'the as-prepared materials'
+    method1: 'u''by de-ionized water and anhydrous ethanol followed by dry at 80 #C
+      in a vacuum oven overnight'''
+    v: u'washed'
+sen6:
+  action1:
+    input_output_1: u'The as-prepared MgMn2O4 , MgMn1 .5 Co0 .5 O4 , and MgMnCoO4
+      precursors'
+    method1: 'u''at 900 #C for 4 h'''
+    v: u'calcinated'
+  action2:
+    method1: 'u''at 400 #C for 4 h'''
+    v: u'calcinated'

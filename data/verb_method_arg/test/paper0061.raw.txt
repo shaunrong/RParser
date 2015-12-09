@@ -1,0 +1,7 @@
+BaCO3 (99%), CaCO3 (99%), TiO2 (98%), ZrO2 (99%), and SnO2 (99.8%) powders were used as raw materials.
+These powders were weighed according to the chemical formula of (1-x)BCTS-xBCTZ (x = 0, 0.20, 0.40, 0.60, and 1.00), and then ball mixed with ZrO2 balls for 24 h using the ethanol as the medium.
+The solution was dried in oven at 80 #C for 24 h, and then calcined at 1200 #C for 3 h in air.
+Calcined powders were mixed with a polyvinyl alcohol (PVA) binder solution and compacted into disk samples with a diameter of ~1.5 cm and a thickness of ~1.0 mm. 
+All samples were sintered at 1380 #C for 2 h in air after burning out the PVA binder at 850 #C for 2 h. 
+Gold pastes were fired at 700 #C for 10 min on both sides of these sintered bulks as electrodes for electrical measurements. 
+All samples were poled at room temperature in a silicone oil bath under a dc field of 2.0-4.0 kV/mm.

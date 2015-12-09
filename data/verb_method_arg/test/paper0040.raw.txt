@@ -1,0 +1,6 @@
+MgMn2O4, MgMn1.5Co0.5O4, MgMnCoO4 and MgCo2O4 were synthesized through a simple hydrothermal method followed by calcination at certain temperature. 
+3 mmol Magnesium(II) chloride hexahydrate (MgCl2*6H2O, AR), a total of 6 mmol cobalt(II) chloride hexahydrate (CoCl2*6H2O, AR), manganese(II) chloride tetrahydrate, (MnCl2*4H2O) with Mn/Co proportion kept at 2.0/0.0, 1.5/0.5, 1.0/1.0, 0.0/2.0, respectively, were dissolved into 30 mL de-ionized water under vigorous stirring. 
+When transparent solution formed, 10 mL 4 M sodium hydroxide was added into the mixed solution. 
+After continuous stirring for 10 min, the suspensions were transferred into autoclaves and heated at 180 #C for 12 h. 
+When the hydrothermal reaction was done, the as-prepared materials were washed by de-ionized water and anhydrous ethanol followed by dry at 80 #C in a vacuum oven overnight. 
+The as-prepared MgMn2O4, MgMn1.5Co0.5O4, and MgMnCoO4 precursors were calcinated at 900 #C for 4 h, but MgCo2O4 precursor was calcinated at 400 #C for 4 h.

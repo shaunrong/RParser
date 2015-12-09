@@ -1,0 +1,74 @@
+sen1:
+  action1:
+    method1: from a stoichiometric mixture of BaTe, MoTe2 and Mo
+    v: prepared
+    input1: X-ray diffractometrically pure powder of BaMo6Te6
+    output1: implicit objective
+sen10:
+  state: extra information
+sen2:
+  action1:
+    method1: respectively
+    method2: 'by heating the elements together in silica tubes at 800 #C during 48
+      h'
+    v: prepared
+    input1: implicit objective
+    output1: BaTe and MoTe2
+sen3:
+  action1:
+    method1: under a hydrogen flow
+    method2: 'at 1000 #C for 6 h'
+    v: heated
+    input1: the Mo powder
+    output1: implicit objective
+sen4:
+  action1:
+    method1: into pellets
+    v: pressed
+    input1: The starting reactants
+    output1: implicit objective
+  action2:
+    method1: 'into a molybdenum crucible which was previously outgassed at 1500 #C
+      for 15 min under a dynamic vacuum of about 10-5 Torr'
+    v: loaded
+    input1: implicit objective
+    output1: implicit objective
+sen5:
+  action1:
+    method1: under a low argon pressure using an arc-welding system
+    v: sealed
+    input1: The Mo crucible
+    output1: implicit objective
+sen6:
+  action1:
+    method1: 'at a rate of 300 #C/h to 1400 #C'
+    v: heated
+    input1: The sample
+    output1: implicit objective
+  action2:
+    method1: at the temperature for 48 h
+    v: kept
+    input1: implicit objective
+    output1: implicit objective
+  action3:
+    method1: then
+    method2: 'at 100 #C/h down to 1100 #C at which point the furnace was shut down'
+    v: cooled
+    input1: implicit objective
+    output1: implicit objective
+sen7:
+  state: extra information
+sen8:
+  action1:
+    method1: by heating a mixture of composition "BaMo6Te6" in a sealed molybdenum
+      crucible at about 1500 1C for 48 h
+    v: grown
+    input1: Crystals
+    output1: implicit objective
+sen9:
+  action1:
+    method1: 'at a rate of 100 #C/h down to 1000 #C, and finally furnace-cooled to
+      room temperature'
+    v: cooled
+    input1: The crucible
+    output1: implicit objective

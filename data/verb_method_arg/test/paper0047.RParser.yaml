@@ -1,0 +1,30 @@
+sen1:
+  action1:
+    input_output_1: u'The Cd2SnO4 powder'
+    method1: u'from the solid state reaction of the well-blended mixture of required
+      quantities of CdO -LRB- 99.99 % pure-Merck -RRB- and SnO2 -LRB- 99.99 % pure-Merck
+      -RRB-'
+    method2: 'u''in the atomic weight ratio of 2 : 1'''
+    v: u'prepared'
+sen2:
+  action1:
+    v: u'mixed'
+sen3:
+  action1:
+    method1: u'based on the monophase compound formation which was confirmed through
+      XRD results'
+    v: u'selected'
+sen4:
+  action1:
+    v: u'prepared'
+sen5:
+  action1:
+    input_output_1: u'The pellet'
+    method1: 'u''at 900 #C in air for 4 hours'''
+    v: u'kept'
+sen6:
+  action1:
+    input_output_1: u'The temperature conditions'
+    method1: u'on the basis of thermal analysis results'
+    method2: u'in both cases'
+    v: u'selected'

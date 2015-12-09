@@ -1,0 +1,38 @@
+sen1:
+  action1:
+    method1: from the solid state reaction of the well-blended mixture of required quantities of CdO (99.99% pure-Merck) and SnO2 (99.99% pure-Merck)
+    method2: 'in the atomic weight ratio of 2 : 1'
+    v: prepared
+    input1: implicit object
+    output1: The Cd2SnO4 powder
+sen2:
+  action1:
+    v: making
+    method1: as a 5 mm thick 50 mm diameter pellet
+    input1: The mixed binary oxides
+    output1: implicit object
+  action2:
+    v: kept
+    method1: 'at 1050 #C for 6 hours in an autotuned, PID controlled SiC furnace at air atmosphere'
+    input1: implicit object
+    output1: implicit object
+sen3:
+  state: extra information
+sen4:
+  action1:
+    v: prepared
+    input1: the well-blended mixture of the ZnO (99.99% pure-Merck chemicals) and SnO2 (99.99% pure-Merck chemicals)
+    output1: The Zn2SnO4 powder
+sen5:
+  action1:
+    method1: 'at 900 #C in air for 4 hours'
+    v: kept
+    input1: The pellet
+    output1: implicit object
+sen6:
+  action1:
+    method1: on the basis of thermal analysis results
+    method2: in both cases
+    v: selected
+    input1: The temperature conditions
+    output1: implicit object

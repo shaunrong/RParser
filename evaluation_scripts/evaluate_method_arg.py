@@ -65,8 +65,8 @@ if __name__ == '__main__':
 
     recall = r_methods / float(total_gold_methods)
     precision = p_methods / float(total_predict_methods)
-    f1 = math.sqrt((recall ** 2 + precision ** 2) / 2.0)
+    f1 = 2 / (1.0 / recall + 1.0 / precision)
 
-    print "recall for key action verbs is {}".format(recall)
-    print "precision for key action verbs is {}".format(precision)
-    print "F1 score for key action verbs is {}".format(f1)
+    print "recall for method arguments is {}".format(recall)
+    print "precision for method argument is {}".format(precision)
+    print "F1 score for key method argument is {}".format(f1)

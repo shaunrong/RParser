@@ -31,7 +31,7 @@ class PreProcessor(object):
                           'Pm', 'Sm', 'Eu', 'Gd', 'Tb', 'Dy', 'Ho', 'Er', 'Tm', 'Yb', 'Lu',
                           'Ac', 'Th', 'Pa', 'U', 'Np', 'Pu', 'Am', 'Cm', 'Bk', 'Cf', 'Es',
                           'Fm', 'Md', 'No', 'Lr']
-        self._units = ['mol', 'mL', 'g', '°C', 'h', 'rpm', 'mA/g', '#C']
+        self._units = ['mol', 'mL', 'g', '°C', 'h', 'rpm', 'mA/g', '#C', 'ml', 'M']
         self._elements.sort(key=len, reverse=True)
 
     def process(self, text):
@@ -46,6 +46,9 @@ class PreProcessor(object):
             new_sen = []
             split_word = []
             for word in sen:
+                #debug
+                #print word
+                #debug
                 if word[-1] == ',' or word[-1] == '.':
                     split_word.append(word)
 

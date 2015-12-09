@@ -1,1 +1,3 @@
 evaluation_scripts
+misc
+scratch

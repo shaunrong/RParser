@@ -1,5 +1,0 @@
-The title compound was prepared from reaction mixtures of H3PO4(3.75 mmol), ethylenediamine (3.75 mmol), and NiCl2*6H2O (0.75 mmol) in a mixture of approximately 15 mL of water and 1-butanol (volume ratio 1 : 2). 
-The initial pH of the reaction was approximately 9. The synthesis was carried out in a poly(tetrafluoroethylene)-lined stainless steel container under autogeneous pressure, filled to approximately 75% volume capacity, and all reactants were sitrred briefly before heating.
-The reaction mixture was heated at 170 #C for 6 days, followed by slow cooling to room temperature.
-The pH of the reaction decreased to approximately 5.
-The resulting product was filted off, washed with ether, and dried in air. 

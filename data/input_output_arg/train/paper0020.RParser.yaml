@@ -1,0 +1,51 @@
+sen1:
+  action1:
+    v: u'shaped'
+  action2:
+    method1: u'by combining 3 mmol of ytterbium metal , 2 -- 3 mmol of copper , 6
+      mmol of germanium and 45 mmol of indium in an alumina crucible under an inert
+      nitrogen atmosphere inside a glove-box'
+    v: u'obtained'
+sen2:
+  action1:
+    method1: 'u''in a 13 mm fused silica tube , which was flame sealed under vacuum
+      of 10 # 4 Torr , to prevent oxidation during heating'''
+    v: u'placed'
+sen3:
+  action1:
+    method1: 'u''to 1000 #C over 10 h'''
+    v: u'heated'
+  action2:
+    method1: u'at that temperature for 5 h'
+    v: u'maintained'
+  action3:
+    method1: 'u''by cooling to 850 #C in 2h'''
+    v: u'followed'
+  action4:
+    method1: u'there'
+    method2: u'for 48 h'
+    v: u'held'
+sen4:
+  action1:
+    v: u'allowed'
+sen5:
+  action1:
+    method1: u'from the excess indium flux'
+    method2: 'u''by heating at 350 #C and subsequent centrifugation through a coarse
+      frit'''
+    v: u'isolated'
+sen6:
+  action1:
+    method1: u'by immersion and sonication'
+    method2: u'in glacial acetic acid for 48 h'
+    v: u'removed'
+sen7:
+  action1:
+    method1: u'with water'
+    v: u'rinsed'
+sen8:
+  action1:
+    v: u'shaped'
+  action2:
+    method1: u'from the reaction with high amount of copper -LRB- 3 mmol -RRB-'
+    v: u'obtained'

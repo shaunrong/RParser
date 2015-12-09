@@ -1,0 +1,6 @@
+Li2CO3, Mn2O3, and Nb2O5 were mixed in a Retsch PM200 planetary ball mill for 5 h and then pressed into a pellet.
+The pellet was sintered at 1000 °C for 12 h under argon gas flow.
+The LNMO active material and carbon black were mixed by ball milling at 300 rpm for 4 h.
+The mixture was then manually mixed with polytetrafluoroethylene (PTFE) and rolled into thin film.
+The weight ratio of the LNMO active material, carbon black, and binder in the electrode is 70:20:10.
+Cells were assembled following earlier reports and cycled on an Arbin battery tester using a current of 10 mA/g at room temperature or 55 °C.

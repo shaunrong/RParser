@@ -1,0 +1,48 @@
+sen1:
+  action1:
+    input1: Gadolinium Oxide (Gd2O3)
+    input2: Erbium Oxide (Er2O3)
+    input3: Ytterbium Oxide (Yb2O3)
+    output1: implicit object
+    method1: by Sigma-Aldrich
+    v: purchased
+sen2:
+  action1:
+    v: weighed
+    input1: The stoichiometric ratios of these chemicals
+    output1: implicit object
+  action2:
+    v: ground
+    method1: in to a fine powder
+    method2: by using agate mortar and pestle
+    input1: implicit object
+    output1: implicit object
+sen3:
+  action1:
+    method1: in an alumina crucible
+    v: placed
+    input1: The ground sample
+    output1: implicit object
+  action2:
+    method1: 'at 1000 #C for 1 h and 1400 #C for 4 h in a muffle furnace'
+    v: heated
+    input1: implicit object
+    output1: implicit object
+sen4:
+  action1:
+    v: cool
+    method1: at room temperature
+    method2: in the same furnace
+    input1: The sample
+    output1: implicit object
+sen5:
+  state: extra information
+sen6:
+  action1:
+    method1: together
+    method2: for 45 min
+    v: grounded
+    input1: The mixtures of reagents
+    output1: a homogeneous powder
+sen7:
+  state: extra information

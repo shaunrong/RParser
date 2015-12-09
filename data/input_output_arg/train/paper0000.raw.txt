@@ -1,0 +1,4 @@
+The precursor powders of LiFePO4 were prepared by chemical co-precipitation method using stoichiometric LiH2PO4, FeSO47H2O and LiOHH2O as starting materials.
+The suspension was stirred at 0-4 °C for about 30 min and aged for about 2 h.
+The final precursor powder product was then filtered, washed with deionized water and ethanol, and dried at 100 °C in a vacuum oven for 2 h.
+To obtain LiFePO4/C composites, the precursor powders were well mixed with glucose and treated at 975 K and 1025 K at Ar-4%H2 atmosphere.

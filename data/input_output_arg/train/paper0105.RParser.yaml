@@ -1,0 +1,23 @@
+sen1:
+  action1:
+    method1: u'by the standard solid-state reaction method'
+    v: u'synthesized'
+sen2:
+  action1:
+    method1: 'u''in air at 900 #C for 12 h'''
+    v: u'mixed, calcined'
+  action2:
+    method1: u'to the room temperature'
+    v: u'cooled'
+sen3:
+  action1:
+    method1: 'u''at 1200 #C for 20 h with two intermediate grindings'''
+    v: u'sintered'
+sen4:
+  action1:
+    method1: u'into pellets'
+    v: u'regrounded, pressed'
+sen5:
+  action1:
+    method1: 'u''at 1350 #C for 20 h'''
+    v: u'annealed'

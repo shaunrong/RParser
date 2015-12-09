@@ -1,0 +1,35 @@
+sen1:
+  action1:
+    method1: hydrothermally
+    method2: from VO(OH)2 powders as described elsewhere (10)
+    v: prepared
+    input1: implicit object
+    output1: VO2(A) powders
+sen2:
+  action1:
+    method1: in a quartz ampule followed by hydrothermal treatment in an autoclave
+      at 350 \xb0C for 40 h
+    v: sealed
+    input1: A suspension of 400 mg VO2(A) powders in 50 ml 0.05M Ba(NO3)2 solution
+    output1: implicit object
+sen3:
+  action1:
+    method1: by filtration
+    v: separated
+    input1: implicit object
+    output1: A brown fibrous product
+sen4:
+  state: extra information
+sen5:
+  state: extra information
+sen6:
+  action1:
+    method1: in the product
+    v: grown
+    output1: Single crystals of the brown fiber with a flat rod shape
+    input1: implicit object
+  action2:
+    method1: under an optical microscope
+    v: collected
+    input1: implicit object
+    output1: implicit object

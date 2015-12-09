@@ -13,31 +13,28 @@ __maintainer__ = 'Shaun Rong'
 __email__ = 'rongzq08@gmail.com'
 
 
-if __name__ == '__main__':
-    parser = argparse.ArgumentParser()
-    parser.add_argument('-i', type=str, required=True, help='input file')
-    args = parser.parse_args()
-
-    with open(args.i, 'r') as f:
+def RParse_predict(ff):
+    with open(ff, 'r') as f:
         text = f.read().splitlines()
 
-    rp = RParser()
     output_yaml = {}
 
     for i, orig_text in enumerate(text):
+        rp = RParser()
         #Preprocess
         pre_p = PreProcessor()
-        process_text, sub_table = pre_p.process([orig_text])
+        process_text, sub_table = pre_p.process([orig_text.strip()])
         sen = process_text[0]
         #RParse
-        verb_parent, method_parent = rp.parse(sen)
+        verb_parent, method_parent = rp.parse_v_method(sen)
+        ioput_phrases = rp.parse_input_output(sen, verb_parent, method_parent)
         #Postprocess
-        post_p = PostProcessor(verb_parent, method_parent, orig_text, sub_table)
+        post_p = PostProcessor(verb_parent, method_parent, ioput_phrases, orig_text.strip(), sub_table)
         summary = post_p.process()
 
         output_yaml['sen{}'.format(i+1)] = summary
 
-    file_path = args.i.split('/')
+    file_path = ff.split('/')
     output_file_name_list = file_path[-1].split('.')
     output_file_name_list[1] = 'RParser'
     output_file_name_list[2] = 'yaml'
@@ -45,3 +42,11 @@ if __name__ == '__main__':
     output_file_path = '/'.join(file_path)
     with open(output_file_path, 'w') as f:
         f.write(yaml.dump(output_yaml, default_flow_style=False))
+
+
+if __name__ == '__main__':
+    parser = argparse.ArgumentParser()
+    parser.add_argument('-i', type=str, required=True, help='input file')
+    args = parser.parse_args()
+
+    RParse_predict(args.i)

@@ -3,6 +3,7 @@ import copy
 import os
 from collections import defaultdict
 
+import cPickle
 import nltk
 import yaml
 from nltk.parse import stanford
@@ -23,24 +24,30 @@ class RParser(object):
         os.environ['STANFORD_PARSER'] = stanford_parser_folder
         os.environ['STANFORD_MODELS'] = stanford_parser_folder
 
+        with open(os.path.join(root_folder, 'ioput_maxent_classifier.pickle'), 'r') as f:
+            self._maxent_classifier = cPickle.loads(f.read())
+
         self._tree_parser = stanford.StanfordParser(model_path=env['model_path'])
         self._dependency_parser = stanford.StanfordDependencyParser(model_path=env['model_path'])
 
+        self._NPs = []
+
     # This parser returns key action verbs and method arguments associated with that key verb
-    def parse(self, sen):
+    def parse_v_method(self, sen):
         ori_sen = copy.copy(sen)
         verb = []
 
         parsed_sen = self._tree_parser.raw_parse(sen)
         root_tree = parsed_sen.next()
-
+        """
         sen = nltk.word_tokenize(sen)
         for i, token in enumerate(sen):
             if token == '(':
                 sen[i] = '-LRB-'
             if token == ')':
                 sen[i] = '-RRB-'
-
+        """
+        sen = root_tree[0].leaves()
         dfs_repr = self.build_dfs_repr(sen, root_tree)
 
         #Find Action Verbs
@@ -71,7 +78,7 @@ class RParser(object):
             #Find method arguments associated with action verbs
             for k, v in verb_parent.iteritems():
                 for child_phrase in root_tree[tuple(k)]:
-                    if child_phrase.label() == 'PP' or child_phrase.label() == 'ADVP':
+                    if child_phrase.label() == 'PP' or child_phrase.label() == 'ADVP' or child_phrase.label() == 'RB':
                         method_phrase = child_phrase.leaves()
                         method_parent[tuple(k)].append(' '.join(method_phrase))
 
@@ -82,7 +89,7 @@ class RParser(object):
                     for p in dependency_parse:
                         for t in p.triples():
                             if t[0][0] == unicode(verb[0]) and t[0][1] == unicode('VBN') and t[1] == unicode('xcomp')\
-                                    and t[2][1] == 'VBG':
+                                    and t[2][1] == unicode('VBG') and t[2][0] != unicode('then'):
                                 associate_word_list = []
                                 for k_word in dfs_repr.keys():
                                     if unicode(k_word[0]) == t[2][0]:
@@ -95,6 +102,70 @@ class RParser(object):
                                 method_parent[tuple(k)].append(' '.join(associate_vbg_method_phrase))
 
         return verb_parent, method_parent
+
+    def parse_input_output(self, sen, verb_parent, method_parent):
+        return_ioput_NP = []
+
+        ori_sen = copy.copy(sen)
+
+        if len(method_parent) == 0:
+            return []
+        else:
+            method_phrases = []
+            for key, values in method_parent.iteritems():
+                method_phrases += values
+            verb_phrases = []
+            for key, values in verb_parent.iteritems():
+                for verb in values:
+                    verb_phrases += [verb[0]]
+
+            parsed_sen = self._tree_parser.raw_parse(sen)
+            root_tree = parsed_sen.next()
+
+            NPs = self.return_NPs(sen)
+
+            for NP in NPs:
+                in_method_phrase = False
+                for method_p in method_phrases:
+                    if NP in method_p:
+                        in_method_phrase = True
+                if not in_method_phrase:
+                    feats = self._maxent_unigram_feats(NP)
+                    tag = self._maxent_classifier.classify(feats)
+                    if tag == 'input_output':
+                        #print NP, tag
+                        return_ioput_NP.append(NP)
+                final_ioput_NP = []
+                for np in return_ioput_NP:
+                    sub_string = False
+                    for other_np in return_ioput_NP:
+                        if np != other_np and (np in other_np):
+                            sub_string = True
+                    #debug
+                    #print verb_phrases
+                    #print method_phrases
+                    #debug
+                    for v_p in verb_phrases:
+                        #print v_p
+                        if v_p in np:
+                            sub_string = True
+                    for m_p in method_phrases:
+                        if m_p in np:
+                            sub_string = True
+                    if not sub_string:
+                        final_ioput_NP.append(np)
+            return final_ioput_NP
+
+    def return_NPs(self, sen):
+        ori_sen = copy.copy(sen)
+        verb = []
+
+        parsed_sen = self._tree_parser.raw_parse(sen)
+        root_tree = parsed_sen.next()
+
+        self._add_NP(root_tree)
+
+        return self._NPs
 
     def build_dfs_repr(self, sen, tree):
         representation = {}
@@ -130,3 +201,22 @@ class RParser(object):
         for word in associate_word_list:
             word_distance[word] = abs(verb[1] - word[1])
         return min(word_distance, key=word_distance.get)
+
+    def _add_NP(self, parent):
+        for node in parent:
+            if type(node) is nltk.Tree:
+                if node.label() == 'NP':
+                    self._NPs.append(' '.join(node.leaves()))
+                self._add_NP(node)
+            else:
+                pass
+
+    def _maxent_unigram_feats(self, NP):
+        feats = []
+        sentences = nltk.sent_tokenize(NP)
+        for sen in sentences:
+            feats = feats + nltk.word_tokenize(sen)
+
+        feats = [w.lower() for w in feats]
+        feats = dict([(w, True) for w in feats])
+        return feats

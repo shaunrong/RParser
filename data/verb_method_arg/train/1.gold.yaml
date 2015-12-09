@@ -1,0 +1,53 @@
+# sen: the sentence number
+# action: the sequence number of key actions in a sentence
+# v: verb of that key ation
+# input: input species argument
+# output: output species argument
+# method: method argument
+sen1:
+  action1:
+    v: 'dissolved'
+    input1: '0.02 mol of Mn(NO3)2·4H2O'
+    output1: 'a clear solution (A)'
+    method1: 'in 50 mL of water'
+sen2:
+  action1:
+    v: 'dissolved'
+    input1: '0.02 mol of (NH4)2HPO4'
+    input2: '20 g of Na2CO3'
+    output1: 'a clear solution (B)'
+    method1: 'in 100 mL of water'
+sen3:
+  action1:
+    v: 'added'
+    input1: 'Solution A'
+    output1: 'implicit object'
+    method1: 'under fast magnetic stirring'
+    method2: 'quickly'
+    method3: 'to solution B'
+sen4:
+  action1:
+    v: 'transferred'
+    input1: 'The obtained slurry'
+    output1: 'implicit object'
+    method1: 'to a glass bottle sealed with a cap'
+sen5:
+  action1:
+    v: 'heated'
+    input1: 'the bottle'
+    output1: 'implicit object'
+    method1: 'in a 120 °C oil bath in an Ar flushed glovebox'
+    method2: 'for 4−72 h, after which it was taken out of the oil bath and slowly cooled down to room temperature.'
+sen6:
+  action1:
+    v: 'centrifuged, washed'
+    input1: 'the slurry'
+    output1: 'implicit object'
+    method1: 'with distilled water and methanol several times'
+sen7:
+  action1:
+    v: 'dried'
+    input1: 'The solid samples'
+    output1: 'implicit object'
+    method1: 'in a vacuum oven'
+    method2: 'at 40 °C overnight'

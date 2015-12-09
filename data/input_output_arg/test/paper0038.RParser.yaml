@@ -1,0 +1,10 @@
+sen1:
+  action1:
+    input_output_1: u'La4(C2)2Ge'
+    method1: 'u''as a minor component from the reaction of the elements La, C, Ge
+      (ratio 6 : 6 : 1)'''
+    method2: u'in corundum crucibles enclosed in stainless steel ampoules at 1360
+      K'
+    v: u'obtained'
+sen2:
+  state: extra information

@@ -1,0 +1,32 @@
+sen1:
+  action1:
+    method1: u'through a simple hydrothermal method followed by calcination at certain
+      temperature'
+    v: u'synthesized'
+sen2:
+  action1:
+    method1: u'into 30 mL de-ionized water under vigorous stirring'
+    v: u'dissolved'
+sen3:
+  action1:
+    method1: u'into the mixed solution'
+    v: u'added'
+sen4:
+  action1:
+    method1: u'into autoclaves'
+    v: u'transferred'
+  action2:
+    method1: 'u''at 180 #C for 12 h'''
+    v: u'heated'
+sen5:
+  action1:
+    method1: 'u''by de-ionized water and anhydrous ethanol followed by dry at 80 #C
+      in a vacuum oven overnight'''
+    v: u'washed'
+sen6:
+  action1:
+    method1: 'u''at 900 #C for 4 h'''
+    v: u'calcinated'
+  action2:
+    method1: 'u''at 400 #C for 4 h'''
+    v: u'calcinated'

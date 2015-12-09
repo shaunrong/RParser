@@ -1,0 +1,6 @@
+(Zn(1#x),Mgx)2(Ti0.88,Sn0.12)O4 (x = 0.05, 0.10, 0.15 and 0.20) ceramics were prepared by solid state reaction method with ZnO (>99.7%), MgO (>99.0%), TiO2 (>99.9%) and SnO2 (>99.9%) as the starting materials. 
+According to composition of (1-x)ZnO-xMgO-0.88TiO2-0.12SnO2 (x = 0.05, 0.10, 0.15 and 0.20), MgO, ZnO and SnO2 powder was weighed and mixed using planetary milling with zirconia balls in ethanol for 12 h. 
+The mixture was dried and calcined at 800 #C for 2 h. 
+The calcined powder was milled for 4 h and dried. 
+The resultant powder was granulated using a 5 wt% poly vinyl alcohol (PVA) solution and pelleted to 12 mm diameter and 1.2 mm thick disks. 
+The ceramics were prepared by sintering at temperatures from 900 to 1200 #C for 4 h with a heating rate 10 #C/min and cooled to room temperature in the furnace.

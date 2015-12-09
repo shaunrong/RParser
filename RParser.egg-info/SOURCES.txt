@@ -7,3 +7,12 @@ RParser.egg-info/pbr.json
 RParser.egg-info/top_level.txt
 evaluation_scripts/RParse_predict.py
 evaluation_scripts/__init__.py
+evaluation_scripts/evaluate_action_verbs.py
+evaluation_scripts/evaluate_method_arg.py
+misc/RPrase_predict_folder.py
+misc/__init__.py
+misc/construct_txt_to_raw.py
+scratch/__init__.py
+scratch/scratch.py
+scratch/scratch2.py
+scratch/scratch3.py

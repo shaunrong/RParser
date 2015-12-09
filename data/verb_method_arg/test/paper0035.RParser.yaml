@@ -1,0 +1,37 @@
+sen1:
+  action1:
+    input_output_1: u'Gadolinium Oxide COMPOUND , Erbium Oxide COMPOUND and Ytterbium
+      Oxide COMPOUND of high purity -LRB- 99.99 % -RRB- chemicals'
+    method1: u'by Sigma-Aldrich'
+    v: u'purchased'
+  action2:
+    method1: u'as precursor material'
+    v: u'used'
+sen2:
+  action1:
+    v: u'weighed'
+sen3:
+  action1:
+    input_output_1: u'The ground sample'
+    method1: u'in an alumina crucible'
+    v: u'placed'
+  action2:
+    method1: 'u''at 1000 #C for 1 h and 1400 #C for 4 h in a muffle furnace'''
+    v: u'heated'
+sen4:
+  action1:
+    v: u'allowed'
+sen5:
+  action1:
+    method1: u'by intermediate grinding using agate mortar and pestle'
+    v: u'followed'
+sen6:
+  action1:
+    input_output_1: u'The mixtures of reagents'
+    input_output_2: u'a homogeneous powder'
+    method1: u'together'
+    method2: u'for 45 min'
+    v: u'grounded'
+sen7:
+  action1:
+    v: u'been'

@@ -1,0 +1,62 @@
+sen1:
+  action1:
+    input_output_1: u'X-ray diffractometrically pure powder of BaMo6Te6'
+    method1: u'from a stoichiometric mixture of BaTe , MoTe2 and Mo'
+    v: u'prepared'
+sen10:
+  state: extra information
+sen2:
+  action1:
+    method1: u'respectively'
+    method2: 'u''by heating the elements together in silica tubes at 800 #C during
+      48 h'''
+    v: u'prepared'
+sen3:
+  action1:
+    input_output_1: u'use'
+    input_output_2: u'the Mo powder'
+    method1: u'under a hydrogen flow'
+    method2: 'u''at 1000 #C for 6 h'''
+    v: u'heated'
+sen4:
+  action1:
+    input_output_1: u'The starting reactants'
+    method1: u'into pellets'
+    v: u'pressed'
+  action2:
+    method1: 'u''into a molybdenum crucible which was previously outgassed at 1500
+      #C for 15 min under a dynamic vacuum of about 10-5 Torr'''
+    v: u'loaded'
+sen5:
+  action1:
+    input_output_1: u'The Mo crucible'
+    method1: u'under a low argon pressure using an arc-welding system'
+    v: u'sealed'
+sen6:
+  action1:
+    input_output_1: u'The sample'
+    method1: 'u''at a rate of 300 #C/h to 1400 #C'''
+    v: u'heated'
+  action2:
+    method1: u'at the temperature for 48 h'
+    v: u'kept'
+  action3:
+    method1: u'then'
+    method2: 'u''at 100 #C/h down to 1100 #C at which point the furnace was shut down'''
+    v: u'cooled'
+  action4:
+    v: u'allowed'
+sen7:
+  action1:
+    v: u'found'
+sen8:
+  action1:
+    method1: u'by heating a mixture of composition "BaMo6Te6" in a sealed molybdenum
+      crucible at about 1500 1C for 48 h'
+    v: u'grown'
+sen9:
+  action1:
+    input_output_1: u'The crucible'
+    method1: 'u''at a rate of 100 #C/h down to 1000 #C, and finally furnace-cooled
+      to room temperature'''
+    v: u'cooled'

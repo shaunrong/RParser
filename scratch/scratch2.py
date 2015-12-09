@@ -15,7 +15,7 @@ __maintainer__ = 'Shaun Rong'
 __email__ = 'rongzq08@gmail.com'
 
 
-with open('environ.yaml', 'r') as f:
+with open('../environ.yaml', 'r') as f:
     env = yaml.load(f)
 
 stanford_parser_folder = env['stanford_parser_folder']
@@ -24,15 +24,16 @@ os.environ['STANFORD_PARSER'] = stanford_parser_folder
 os.environ['STANFORD_MODELS'] = stanford_parser_folder
 
 cfuf = PreProcessor()
-with open('data/3.raw.txt', 'r') as f:
+with open('../data/verb_method_arg/test/paper0105.raw.txt', 'r') as f:
     text = f.read().splitlines()
 
-process_text, sub_table = cfuf.process(text)
+orig_text = text[4]
 
-sen = process_text[1]
+process_text, sub_table = cfuf.process([orig_text.strip()])
+
+sen = process_text[0]
 
 print sen
-
 
 parser = stanford.StanfordParser(model_path=env['model_path'])
 sentences = parser.raw_parse(sen)
@@ -57,6 +58,9 @@ def getNodes(parent):
             print "Word:", node
 
 #getNodes(tree)
+
+#root_tree = sentences.next()
+#print root_tree[0].leaves()
 
 for line in sentences:
     line.draw()

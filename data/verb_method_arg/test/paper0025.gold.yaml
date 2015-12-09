@@ -1,0 +1,45 @@
+sen1:
+  state: extra information
+sen10:
+  state: extra information
+sen2:
+  state: extra information
+sen3:
+  state: extra information
+sen4:
+  state: extra information
+sen5:
+  state: extra information
+sen6:
+  action1:
+    method1: first
+    method2: in deionized water
+    v: dissolved
+    input1: The raw materials
+    output1: a mixed solution
+sen7:
+  action1:
+    method1: 'at 120 #C for 6h'
+    v: dried
+    input1: The solution
+    output1: implicit solution
+  action2:
+    method1: then
+    method2: into ceramic body at 70MPa
+    v: pressed
+    input1: implicit solution
+    output1: implicit solution
+sen8:
+  action1:
+    method1: into a furnace
+    method2: for finally sintering
+    v: put
+    input1: the ceramic bodies
+    output1: implicit solution
+sen9:
+  action1:
+    method1: into fine powder
+    method2: with the help of an agate mortar
+    v: crushed
+    input1: The prepared ceramics
+    output1: implicit solution

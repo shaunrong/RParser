@@ -1,0 +1,64 @@
+sen1:
+  action1:
+    method1: as raw materials
+    v: used
+    input1: BaCO3 (99%) , CaCO3 (99%) , TiO2 (98%) , ZrO2 (99%) , and SnO2 (99.8%) powders
+    output1: implicit object
+sen2:
+  action1:
+    method1: according to the chemical formula of -LRB- 1-x -RRB- BCTS-xBCTZ -LRB-
+      x = 0 , 0.20 , 0.40 , 0.60 , and 1.00 -RRB-
+    v: weighed
+    input1: These powders
+    output1: implicit object
+  action2:
+    v: mixed
+    method1: with ZrO2 balls
+    method2: using the ethanol as the medium
+    input1: implicit object
+    output1: implicit object
+sen3:
+  action1:
+    method1: in oven
+    method2: 'at 80 #C for 24 h'
+    v: dried
+    input1: The solution
+    output1: implicit object
+  action2:
+    method1: 'at 1200 #C for 3 h in air'
+    v: calcined
+    input1: implicit object
+    output1: implicit object
+sen4:
+  action1:
+    method1: with a polyvinyl alcohol (PVA) binder solution
+    v: mixed
+    input1: Calcined powders
+    output1: implicit object
+  action2:
+    method1: into disk samples
+    method2: with a diameter of ~ 1.5 cm and a thickness of ~ 1.0 mm
+    v: compacted
+    input1: implicit object
+    output1: implicit object
+sen5:
+  action1:
+    method1: 'at 1380 #C for 2 h in air'
+    method2: 'after burning out the PVA binder at 850 #C for 2 h'
+    v: sintered
+    input1: All samples
+    output1: implicit object
+sen6:
+  action1:
+    method1: 'at 700 #C for 10 min on both sides of these sintered bulks'
+    method2: as electrodes for electrical measurements
+    v: fired
+    input1: Gold pastes
+    output1: implicit object
+sen7:
+  action1:
+    method1: at room temperature in a silicone oil bath
+    method2: under a dc field of 2.0-4 .0 kV/mm
+    v: poled
+    input1: All samples
+    output1: implicit object

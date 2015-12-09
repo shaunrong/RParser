@@ -1,0 +1,36 @@
+sen1:
+  action1:
+    method1: u'under flowing Ar gas at 850 K'
+    v: u'dried'
+  action2:
+    v: u'mixed'
+sen2:
+  action1:
+    method1: u'in an agate mortar'
+    v: u'ground'
+sen3:
+  action1:
+    method1: u'at 150 MPa using a steel die'
+    v: u'pelletized'
+  action2:
+    method1: u'in an alumina crucible'
+    v: u'placed'
+  action3:
+    method1: u'at 1373 K for a total duration of ~ 360 ks'
+    method2: u'under dry flowing oxygen gas for synthesizing GdRhO3'
+    v: u'heated'
+sen4:
+  action1:
+    method1: u'on a sacrcial pellet of the same composition'
+    v: u'placed'
+sen5:
+  action1:
+    method1: u'from the furnace'
+    v: u'removed'
+  action2:
+    method1: u'to room temperature, ground'
+    method2: u'thoroughly'
+    v: u'cooled'
+  action3:
+    method1: u'for further heat treatment'
+    v: u're-pelletized'

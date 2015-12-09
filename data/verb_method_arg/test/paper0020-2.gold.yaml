@@ -1,0 +1,41 @@
+sen1:
+  action1:
+    method1: in the ideal 2:1:6 and 3:4:4 atomic ratios for Yb2CuGe6 and Yb3Cu4Ge4
+    method2: respectively
+    v: mixed
+    input1: Ytterbium
+    input2: copper
+    input3: germanium
+    output1: implicit object
+  action2:
+    method1: in tantalum ampoules
+    method2: under argon atmosphere in an arc-melting apparatus
+    v: sealed
+    input1: implicit object
+    output1: implicit object
+sen2:
+  action1:
+    method1: in a water-cooled sample chamber of an induction furnace (Easy Heat induction heating system, Model 7590)
+    v: placed
+    input1: The tantalum ampoules
+    output1: implicit object
+  action2:
+    v: heated
+    method1: rapidly
+    method2: to 170 Amp (ca. 1200--1350 K)
+    input1: implicit object
+    output1: implicit object
+  action3:
+    v: kept
+    method1: then
+    method2: at that temperature for 30 mi
+    input1: implicit object
+    output1: implicit object
+sen3:
+  action1:
+    method1: to room temperature
+    method2: by switching off the power supply
+    method3: rapidly
+    v: cooled
+    input1: the reaction
+    output1: implicit object

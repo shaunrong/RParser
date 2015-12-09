@@ -35,7 +35,7 @@ sen = process_text[3]
 
 rp = RParser()
 
-verb_parent, method_parent = rp.parse(sen)
+verb_parent, method_parent = rp.parse_v_method(sen)
 
 print verb_parent
 print method_parent

@@ -1,0 +1,57 @@
+# sen: the sentence number
+# action: the sequence number of key actions in a sentence
+# v: verb of that key ation
+# input: input species argument
+# output: output species argument
+# method: method argument
+sen1:
+  action1:
+    v: 'mixed'
+    input1: 'Li2CO3, Mn2O3, and Nb2O5'
+    output1: 'implicit object'
+    method1: 'in a Retsch PM200 planetary ball mill for 5 h'
+  action2:
+    v: 'pressed'
+    input1: 'implicit object'
+    output1: 'implicit object'
+    method1: 'into a pellet'
+sen2:
+  action1:
+    v: 'sintered'
+    input1: 'The pellet'
+    output1: 'implicit object'
+    method1: 'at 1000 °C for 12 h'
+    method2: 'under argon gas flow'
+sen3:
+  action1:
+    v: 'mixed'
+    input1: 'The LNMO active material and carbon black'
+    output1: 'implicit object'
+    method1: 'by ball milling'
+    method2: 'at 300 rpm for 4 h'
+sen4:
+  action1:
+    v: 'mixed'
+    input1: 'The mixture'
+    output1: 'imiplicit object'
+    method1: 'manually'
+    method2: 'with polytetrafluoroethylene (PTFE)'
+  action2:
+    v: 'rolled'
+    input1: 'imiplicit object'
+    output1: 'imiplicit object'
+    method1: 'into thin film'
+sen5:
+  state: 'extra information'
+sen6:
+  action1:
+    v: 'assembled'
+    input1: 'Cells'
+    output1: 'imiplicit object'
+    method1: 'following earlier reports'
+  action2:
+    v: 'cycled'
+    input1: 'imiplicit object'
+    output1: 'imiplicit object'
+    method1: 'on an Arbin battery tester'
+    method2: 'using a current of 10 mA/g at room temperature or 55 °C'

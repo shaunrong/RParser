@@ -1,0 +1,53 @@
+# sen: the sentence number
+# action: the sequence number of key actions in a sentence
+# v: verb of that key ation
+# input: input species argument
+# output: output species argument
+# method: method argument
+sen1:
+  action1:
+    v: 'mixed'
+    input1: 'stoichiometric amounts of V2O5 and NH4H2PO4'
+    output1: 'Na3V2(PO4)2F3'
+    method1: 'with 15% carbon black by mass'
+sen2:
+  action1:
+    v: 'mixed'
+    input1: 'stoichiometric amounts of V2O5, Ga2O3, and NH4H2PO4'
+    outpu1: 'Na3GaV(PO4)2F3'
+    method1: 'with 15% carbon black by mass'
+sen3:
+  action1:
+    v: 'pelletized, heated'
+    input1: 'the mixture'
+    output1: 'Na3V2(PO4)2F3'
+    method1: 'to 750 °C'
+    method2: 'under a flow of argon'
+    method3: 'for 4 h'
+  action2:
+    v: 'pelletized, heated'
+    input1: 'the mixture'
+    output1: 'Na3GaV(PO4)2F3'
+    method1: 'to 850 °C'
+    method2: 'under a flow of argon'
+    method3: 'for 8 h'
+sen4:
+  action1:
+    v: 'crushed'
+    input1: 'Both resultant mixtures'
+    output1: 'implicit object'
+  action2:
+    v: 'mixed'
+    method1: 'with a stoichiometric mass of NaF'
+    input1: 'implicit object'
+    output1: 'implicit object'
+  action3:
+    v: 'pelletized'
+    input1: 'implicit object'
+    output1: 'implicit object'
+  action4:
+    v: 'calcined'
+    input1: 'implicit object'
+    output1: 'implicit object'
+    method1: 'at 750 °C for 2 h'
+    method2: 'under a flow of argon'

@@ -1,0 +1,10 @@
+X-ray diffractometrically pure powder of BaMo6Te6 was prepared from a stoichiometric mixture of BaTe, MoTe2 and Mo. 
+BaTe and MoTe2 were prepared, respectively, by heating the elements together in silica tubes at 800 #C during 48 h. 
+Before use, the Mo powder was heated under a hydrogen flow at 1000 #C for 6 h. 
+The starting reactants were then pressed into pellets (ca. 5 g) and loaded into a molybdenum crucible which was previously outgassed at 1500 #C for 15 min under a dynamic vacuum of about 10-5 Torr. 
+The Mo crucible was subsequently sealed under a low argon pressure using an arc-welding system. 
+The sample was heated at a rate of 300 #C/h to 1400 #C, kept at the temperature for 48 h and then cooled at 100 #C/h down to 1100 #C at which point the furnace was shut down and allowed to cool to room temperature. 
+The resulting product was found to be single-phase on the basis of its X-ray powder diffraction pattern carried out on a D8 Bruker Advance diffractometer equipped with a LynxEye detector (CuKa1 radiation) and operating at 40 kV and 40 mA (Fig. 1). 
+Crystals were grown by heating a mixture of composition "BaMo6Te6" in a sealed molybdenum crucible at about 1500 1C for 48 h. 
+The crucible was then cooled at a rate of 100 #C/h down to 1000 #C, and finally furnace-cooled to room temperature. 
+Crystals thus obtained have the shape of needles with hexagonal cross section.

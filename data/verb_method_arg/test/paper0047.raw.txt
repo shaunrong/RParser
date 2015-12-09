@@ -1,0 +1,6 @@
+The Cd2SnO4 powder was prepared from the solid state reaction of the well-blended mixture of required quantities of CdO (99.99% pure-Merck) and SnO2 (99.99% pure-Merck) in the atomic weight ratio of 2 : 1.
+The mixed binary oxides, after making them as a 5 mm thick 50 mm diameter pellet, were kept at 1050 #C for 6 hours in an autotuned, PID controlled SiC furnace at air atmosphere. 
+The optimized time duration was selected based on the monophase compound formation which was confirmed through XRD results. 
+The Zn2SnO4 powder was also prepared as mentioned above, from the well-blended mixture of the ZnO (99.99% pure-Merck chemicals) and SnO2 (99.99% pure-Merck chemicals) in the atomic weight ratio of 2:1.
+The pellet was kept at 900 #C in air for 4 hours.
+The temperature conditions were selected on the basis of thermal analysis results in both cases.

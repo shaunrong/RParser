@@ -1,0 +1,63 @@
+sen1:
+  action1:
+    method1: under flowing Ar gas at 850 K
+    v: dried
+    input1: Fine powders of white Gd2O3
+    input2: dark grey B-Rh2O3 of purity greater than 99.9%
+    output1: implicit object
+  action2:
+    v: mixed
+    method1: in the desired stoichiometric ratio to make GdRhO3
+    input1: implicit object
+    output1: implicit object
+sen2:
+  action1:
+    method1: in an agate mortar
+    v: ground
+    input1: The powders
+    output1: implicit object
+sen3:
+  action1:
+    method1: at 150 MPa using a steel die
+    v: pelletized
+    input1: The homogeneous mixture
+    output1: implicit object
+  action2:
+    method1: in an alumina crucible
+    v: placed
+    input1: implicit object
+    output1: implicit object
+  action3:
+    method1: at 1373 K for a total duration of ~ 360 ks
+    method2: under dry flowing oxygen gas for synthesizing GdRhO3
+    v: heated
+    input1: implicit object
+    output1: implicit object
+sen4:
+  action1:
+    method1: on a sacrcial pellet of the same composition
+    v: placed
+    input1: The pellets
+    output1: implicit object
+sen5:
+  action1:
+    method1: from the furnace
+    method2: At intervals of ~90 ks
+    input1: the samples
+    output1: implicit object
+    v: removed
+  action2:
+    method1: to room temperature
+    v: cooled
+    input1: implicit object
+    output1: implicit object
+  action3:
+    v: ground
+    method1: thoroughly
+    input1: implicit object
+    output1: implicit object
+  action4:
+    method1: for further heat treatment
+    v: re-pelletized
+    input1: implicit object
+    output1: implicit object

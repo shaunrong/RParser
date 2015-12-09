@@ -1,0 +1,21 @@
+sen1:
+  action1:
+    method1: u'in the ideal 2:1:6 and 3:4:4 atomic ratios for Yb2CuGe6 and Yb3Cu4Ge4'
+    method2: u'respectively'
+    v: u'mixed'
+  action2:
+    method1: u'in tantalum ampoules'
+    method2: u'under argon atmosphere in an arc-melting apparatus'
+    v: u'sealed'
+sen2:
+  action1:
+    input_output_1: u'The tantalum ampoules'
+    input_output_2: u'170 Amp'
+    method1: u'in a water-cooled sample chamber of an induction furnace (Easy Heat
+      induction heating system, Model 7590)'
+    v: u'placed'
+sen3:
+  action1:
+    method1: u'to room temperature'
+    method2: u'by switching off the power supply'
+    v: u'cooled'
